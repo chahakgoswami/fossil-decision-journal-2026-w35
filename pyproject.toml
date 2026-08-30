@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "fossil"
+version = "0.1.0"
+description = "A personal decision journal CLI"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.0",
+]
+
+[project.scripts]
+fossil = "fossil.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
