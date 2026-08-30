@@ -14,5 +14,4 @@ A CLI tool to log decisions, predict outcomes, and later review how accurate you
 - [ ] Day 6: Add `fossil export --format csv` and `--format json` to dump all decisions and outcomes to a file for use in spreadsheets or further analysis.
 - [ ] Day 7: Implement `fossil reflect` which uses a local template to print a weekly digest of unreviewed decisions older than 7 days, reminding the user to follow up.
 
----
-_Scaffolded and built incrementally by an automated weekly-code bot._
+
